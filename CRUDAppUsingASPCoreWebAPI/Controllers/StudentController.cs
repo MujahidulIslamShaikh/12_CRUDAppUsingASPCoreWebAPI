@@ -2,6 +2,7 @@
 using System.Text.Json.Serialization;
 using CRUDAppUsingASPCoreWebAPI.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Abstractions;
 using Microsoft.Build.ObjectModelRemoting;
 using Newtonsoft.Json;
 
@@ -46,7 +47,36 @@ namespace CRUDAppUsingASPCoreWebAPI.Controllers
             }
             return View();
         }
+        [HttpGet]
+        public IActionResult Edit(int id)
+        {
+            Student std = new Student();
+            HttpResponseMessage response = client.GetAsync(url+id).Result;
+            if (response.IsSuccessStatusCode)
+            {
+                string result = response.Content.ReadAsStringAsync().Result;
+                var data = JsonConvert.DeserializeObject<Student>(result);
+                if (data != null)
+                {
+                    std = data;
+                }
+            }
 
+            return View(std);
+        }
+        [HttpPost]
+        public IActionResult Edit(Student std)
+        {
+            string data = JsonConvert.SerializeObject(std);
+            StringContent content = new StringContent(data, Encoding.UTF8, "application/json");
+            HttpResponseMessage response = client.PutAsync(url+std.id, content).Result;
+            if (response.IsSuccessStatusCode)
+            {
+                TempData["update_message"] = "Student Updated ..";
+                return RedirectToAction("Index");
+            }
+            return View();
+        }
 
 
     }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\name\\source\\repos\\CRUDAppUsingASPCoreWebAPI\\CRUDAppUsingASPCoreWebAPI\\CRUDAppUsingASPCoreWebAPI.csproj": {}
+    "C:\\Users\\name\\source\\repos\\12_CRUDAppUsingASPCoreWebAPI\\CRUDAppUsingASPCoreWebAPI\\CRUDAppUsingASPCoreWebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\name\\source\\repos\\CRUDAppUsingASPCoreWebAPI\\CRUDAppUsingASPCoreWebAPI\\CRUDAppUsingASPCoreWebAPI.csproj": {
+    "C:\\Users\\name\\source\\repos\\12_CRUDAppUsingASPCoreWebAPI\\CRUDAppUsingASPCoreWebAPI\\CRUDAppUsingASPCoreWebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\name\\source\\repos\\CRUDAppUsingASPCoreWebAPI\\CRUDAppUsingASPCoreWebAPI\\CRUDAppUsingASPCoreWebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\name\\source\\repos\\12_CRUDAppUsingASPCoreWebAPI\\CRUDAppUsingASPCoreWebAPI\\CRUDAppUsingASPCoreWebAPI.csproj",
         "projectName": "CRUDAppUsingASPCoreWebAPI",
-        "projectPath": "C:\\Users\\name\\source\\repos\\CRUDAppUsingASPCoreWebAPI\\CRUDAppUsingASPCoreWebAPI\\CRUDAppUsingASPCoreWebAPI.csproj",
+        "projectPath": "C:\\Users\\name\\source\\repos\\12_CRUDAppUsingASPCoreWebAPI\\CRUDAppUsingASPCoreWebAPI\\CRUDAppUsingASPCoreWebAPI.csproj",
         "packagesPath": "C:\\Users\\name\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\name\\source\\repos\\CRUDAppUsingASPCoreWebAPI\\CRUDAppUsingASPCoreWebAPI\\obj\\",
+        "outputPath": "C:\\Users\\name\\source\\repos\\12_CRUDAppUsingASPCoreWebAPI\\CRUDAppUsingASPCoreWebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CRUDAppUsingASPCoreWebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+17812e5a13558e60748ca8f9559da6dfec9ae5ee")]
 [assembly: System.Reflection.AssemblyProductAttribute("CRUDAppUsingASPCoreWebAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CRUDAppUsingASPCoreWebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
